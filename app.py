@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from flask import Flask,request
 
-client=MongoClient('mongodb+srv://parvathanenimadhu:madhu123@cluster0.yaaw6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client=MongoClient('mongodb+srv://parvathanenimadhu:XXXXXXX@cluster0.yaaw6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 
 db=client['makeskilled'] 
 collection=db['students'] 
